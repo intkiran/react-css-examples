@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-blue {
+  @apply bg-red-500 text-white;
+  
+}
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+.btn-blue:hover {
+  @apply bg-red-700;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9hcHAuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6ImFwcC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAdGFpbHdpbmQgYmFzZTtcbkB0YWlsd2luZCBjb21wb25lbnRzO1xuQHRhaWx3aW5kIHV0aWxpdGllcztcblxuXG4uYnRuLWJsdWUge1xuICBAYXBwbHkgYmctcmVkLTUwMCB0ZXh0LXdoaXRlO1xuICBcbn1cbi5idG4ge1xuICBAYXBwbHkgZm9udC1ib2xkIHB5LTIgcHgtNCByb3VuZGVkO1xufVxuLmJ0bi1ibHVlOmhvdmVyIHtcbiAgQGFwcGx5IGJnLXJlZC03MDA7XG59Il19 */

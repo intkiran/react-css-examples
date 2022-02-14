@@ -1,15 +1,13 @@
-import logo from './logo.svg';
-import './css/output.css';
-
+import React from 'react';
+import ButtonStyle from './ButtonStyle';
+import ButtonStyledComponent from './ButtonStyledComponent';
 function App() {
   return (
     <div className="App">
-      <div className="text-3xl font-bold ">
-        Simple Tailwindo CSS application
-      </div>
-      <button className="btn btn-blue">
-        Submit
-      </button>
+
+      <div>React Version - {React.version}</div>
+      <ButtonStyledComponent></ButtonStyledComponent>
+
     </div>
   );
 }

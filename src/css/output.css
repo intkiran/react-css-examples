@@ -37,7 +37,6 @@ html {
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
-  -moz-tab-size: 4;
   /* 3 */
   tab-size: 4;
   /* 3 */
@@ -422,17 +421,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+*, ::before, ::after {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
-.font-bold {
-  font-weight: 700;
+.border {
+  border-width: 1px;
 }
 
-.underline {
-  text-decoration: underline;
+.outline {
+  outline-style: solid;
 }
 
 .btn-blue {

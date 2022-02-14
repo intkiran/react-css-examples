@@ -1,0 +1,15 @@
+.clickButton{
+    font-size: 1rem; 
+    font-weight: 1.5; 
+    line-height: 1.5; 
+    color: white; 
+    border-radius: 25px; 
+    background-color: blue; 
+    padding: 0px 2em; 
+    outline: none;
+     border: none;
+}
+.clickButton:hover{
+    color: white; 
+    background-color: lightblue; 
+}
